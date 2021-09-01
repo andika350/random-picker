@@ -1,5 +1,6 @@
 const tagsEl = document.getElementById('tags');
 const textArea = document.getElementById('text-area');
+const randomBtn = document.getElementById('random-btn');
 
 
 
@@ -15,7 +16,11 @@ textArea.addEventListener('keyup', (e) => {
 
         randomPicker();
     }
-})
+});
+
+randomBtn.addEventListener('click', (e) =>{
+        randomPicker();
+});
 
 
 
